@@ -108,3 +108,50 @@ input{
     align-items: center;
     margin: 0.5rem;
 }
+
+@media screen and (max-width: 700px) {
+.text-image{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;    
+}  
+
+
+    .text-image h1{
+    max-width: 65%;    
+    font-size: 24px;
+}    
+
+.text-image img{
+    max-width: 70%;
+    margin: 0;    
+}
+
+.grid {
+    grid-auto-flow: row;
+}
+
+.box{
+    max-width: 70%;
+}
+
+.form{
+    max-width: 50%;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+input{
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+.result-info{
+    font-size: 18px;
+}
+    
+}
+@media (max-width: 700px) {
+    
+  }
+  
