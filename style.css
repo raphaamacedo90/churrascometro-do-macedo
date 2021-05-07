@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     outline: 0 ;
+    margin: 0 auto;
+    max-width: 100%;
 }
       
  
@@ -44,8 +46,7 @@
     border-radius: 4rem 4rem 4rem 4rem;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    
+    flex-direction: column; 
     
    
     
@@ -109,7 +110,7 @@ input{
     margin: 0.5rem;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px){
 
 *{
     overflow-x: hidden;
@@ -118,18 +119,18 @@ input{
 .text-image{
     display: flex;
     flex-direction: column;
-    max-width: 100%;    
+       
 }  
 
 
 .text-image h1{
-    max-width: 65%;    
-    font-size: 24px;
+    width: 92%;
+    font-size: 21px;
 }    
 
 .text-image img{
-    max-width: 70%;
-    margin: 0;    
+    max-width: 100%;
+    margin: 0 auto; 
 }
 
 .grid {
@@ -137,11 +138,16 @@ input{
 }
 
 .box{
-    max-width: 70%;
+    width: 100%;
+}
+
+.logo-box{
+   max-width: 100%;
+   margin: 0 auto;
+
 }
 
 .form{
-    max-width: 50%;
     margin-top: 0;
     font-size: 15px;
 }
@@ -156,7 +162,8 @@ input{
 }
     
 }
-@media (max-width: 700px) {
+@media (max-width: 425px) {
+    
     
   }
   
