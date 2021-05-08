@@ -4,11 +4,9 @@
     margin: 0;
     padding: 0;
     outline: 0 ;
-    margin: 0 auto;
-    max-width: 100%;
+    
+    
 }
-      
- 
 
 .grid{
 
@@ -40,13 +38,14 @@
 
 .box{
     background-color: rgba(255, 153, 0, 0.87);
-    height: 100vh;
+    height: auto;
     width: 60vh;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 4rem 4rem 4rem 4rem;
     display: flex;
     align-items: center;
     flex-direction: column; 
+    
     
    
     
@@ -89,7 +88,7 @@ input{
     text-align: center;    
     cursor: pointer;   
     opacity: 0.8; 
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 .inputactive{
@@ -107,15 +106,15 @@ input{
 .result-block {
     display: flex;
     align-items: center;
-    margin: 0.5rem;
+    margin: 1.5rem;
 }
 
 @media screen and (max-width: 700px){
 
-*{
-    overflow-x: hidden;
-}    
-
+.container{
+    width: auto;
+    height: auto;
+}
 .text-image{
     display: flex;
     flex-direction: column;
@@ -138,7 +137,9 @@ input{
 }
 
 .box{
-    width: 100%;
+    width: auto; 
+    margin: 0 auto;
+     
 }
 
 .logo-box{
@@ -160,7 +161,8 @@ input{
 .result-info{
     font-size: 18px;
 }
-    
+
+
 }
 @media (max-width: 425px) {
     
